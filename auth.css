@@ -1,0 +1,59 @@
+/* Styles for the login container */
+.login-container {
+  display: flex;
+  justify-content: center; /* Centers the form horizontally */
+  align-items: center; /* Centers the form vertically */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styles for the login form */
+.login-form {
+  background-color: white; /* White background for the form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 350px; /* Fixed width for the form */
+}
+
+/* Styles for the form heading */
+.login-form h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styles for the input fields */
+.login-form input {
+  width: 80%; /* Full width */
+  padding: 10px; /* Padding inside the inputs */
+  margin-bottom: 15px; /* Space below each input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Styles for the button */
+.login-form button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+}
+
+.login-form button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Styles for the registration link */
+.login-form p {
+  text-align: center; /* Center the text */
+}
+
+.login-form span {
+  cursor: pointer; /* Pointer cursor on hover */
+  color: #007bff; /* Link color */
+  text-decoration: underline; /* Underline for emphasis */
+}

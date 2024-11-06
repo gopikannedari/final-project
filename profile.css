@@ -1,0 +1,42 @@
+/* styles/profile.css */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the body takes the full height of the viewport */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* Slightly off-white for contrast */
+}
+
+.container {
+  height: 300px;
+  width: 500px; /* Adjusted width */
+  padding: 10px; /* Reduced padding to decrease height */
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #35dc67;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4723c8;
+}
